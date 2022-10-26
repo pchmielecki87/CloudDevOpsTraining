@@ -1,0 +1,79 @@
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: UseDotNet@2
+  displayName: 'Install .NET Core SDK'
+  inputs:
+    version: '6.0.x'
+    performMultiLevelLookup: true
+    includePreviewVersions: true
+
+- task: UseDotNet@2
+  displayName: 'Install .NET Core SDK for SonarCloud'
+  inputs:
+    version: '3.1.x'
+    performMultiLevelLookup: true
+    includePreviewVersions: true
+
+- task: UseDotNet@2
+  displayName: 'Enforce .NET version'
+  inputs:
+    version: '6.0.x'
+    includePreviewVersions: true
+
+- task: UseDotNet@2
+  displayName: 'Enforce .NET version for SonarCloud'
+  inputs:
+    version: '3.1.x'
+    includePreviewVersions: true
+
+- task: DotNetCoreCLI@2
+  displayName: '.NET restore'
+  inputs:
+    command: 'restore'
+    projects: 'DotNet6_sandbox/*.csproj'
+    feedsToUse: 'select'
+    vstsFeed: 'FeedId'
+
+- task: SonarCloudPrepare@1
+  displayName: 'Prepare SonarCloud analysis'
+  inputs:
+    SonarCloud: 'sonarcloud'
+    organization: 'organization'
+    scannerMode: 'MSBuild'
+    projectKey: 'projectKey'
+    projectName: 'CSharpTest'
+    
+- task: DotNetCoreCLI@2
+  displayName: '.NET build'
+  inputs:
+    command: 'build'
+    projects: '**/*.csproj'
+
+- task: SonarCloudAnalyze@1
+  displayName: 'Run SonarCloud analysis'
+
+- task: SonarCloudPublish@1
+  displayName: 'Publish SonarCloud results'
+  inputs:
+    pollingTimeoutSec: '300'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Publish build artifact'
+  inputs:
+    command: 'publish'
+    publishWebProjects: true
+    workingDirectory: 'DotNet6_sandbox'
+
+- task: AzureRmWebAppDeployment@4
+  displayName: 'Publish Webapp to Azure'
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'SC_name'
+    appType: 'webApp'
+    WebAppName: 'DotNetSandbox'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/DotNet6_sandbox/**/*.zip'
