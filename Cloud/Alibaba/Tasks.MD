@@ -4,8 +4,7 @@ Install OSSutil for storage [link](https://www.alibabacloud.com/help/en/object-s
 Portal + CLI
 
 # Create users and groups
-- [portal]()
-- [cli]()
+- [portal](https://www.alibabacloud.com/help/en/log-service/latest/create-users-and-user-groups)
 
 # Create storage bucket
 - [portal](https://www.alibabacloud.com/help/en/object-storage-service/latest/create-buckets-2)
@@ -15,14 +14,12 @@ Portal + CLI
 # Create VM
 - [portal](https://alibabacloudguide.com/recipe-ecs-creation-of-an-instance-alibaba-cloud-2098d0138f18)
 
-# Create GKE
-- [portal]()
-- [cli]()
+# Create container solutions
+- [portal and cli](https://faun.pub/8-ways-to-deploy-managed-kubernetes-cluster-in-alibaba-cloud-668aaeac7bff)
 
 # Create function
-- [portal]()
-- [cli]()
+- [portal](https://www.alibabacloud.com/help/en/function-compute/latest/create-a-function-in-the-function-compute-console)
+- [cli](https://www.serverless.com/framework/docs/providers/aliyun/guide/functions/)
 
 # Create DB
-- [portal]()
-- [cli]()
+- [portal](https://roopu.cloud/how-to-create-an-alibaba-cloud-apsaradb-rds-instance-for-mysql/)
