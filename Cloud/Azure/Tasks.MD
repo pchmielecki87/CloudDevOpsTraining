@@ -1,4 +1,9 @@
+Install Azure CLI [link](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
+
 Portal + CLI
+
+# Create budget and alerts
+- [portal and cli](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets)
 
 # AAD create users and groups
 - [portal](https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/add-users-azure-active-directory)
