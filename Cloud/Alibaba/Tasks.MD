@@ -5,6 +5,7 @@ Portal + CLI
 
 # Create users and groups
 - [portal](https://www.alibabacloud.com/help/en/log-service/latest/create-users-and-user-groups)
+- [RAM users](https://www.alibabacloud.com/help/en/resource-access-management/latest/getting-started-create-a-user-group)
 
 # Create storage bucket
 - [portal](https://www.alibabacloud.com/help/en/object-storage-service/latest/create-buckets-2)
