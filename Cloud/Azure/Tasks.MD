@@ -1,7 +1,5 @@
 Install Azure CLI [link](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
-Portal + CLI
-
 # Create budget and alerts
 - [portal and cli](https://learn.microsoft.com/en-us/azure/cost-management-billing/costs/tutorial-acm-create-budgets)
 

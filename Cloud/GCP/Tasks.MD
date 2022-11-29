@@ -1,7 +1,5 @@
 Install Google CLI [link](https://cloud.google.com/sdk/docs/install)
 
-Portal + CLI
-
 # Create budget and alerts
 - [portal](https://cloud.google.com/billing/docs/how-to/budgets)
 - [portal](https://cloud.google.com/billing/docs/how-to/budgets-notification-recipients)

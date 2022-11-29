@@ -1,8 +1,6 @@
 Install Aliyun CLI [link](https://github.com/aliyun/aliyun-cli)
 Install OSSutil for storage [link](https://www.alibabacloud.com/help/en/object-storage-service/latest/download-and-installation#concept-303829)
 
-Portal + CLI
-
 # Create users and groups
 - [portal](https://www.alibabacloud.com/help/en/log-service/latest/create-users-and-user-groups)
 - [RAM users](https://www.alibabacloud.com/help/en/resource-access-management/latest/getting-started-create-a-user-group)

@@ -1,7 +1,5 @@
 Install AWS CLI [link](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), [brew](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-cli-install-linux-alt.html)
 
-Portal + CLI
-
 # Create budget and alerts
 - [portal](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-controls.html)
 
