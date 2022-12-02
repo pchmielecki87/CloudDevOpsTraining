@@ -17,8 +17,7 @@ Install Azure CLI [link](https://learn.microsoft.com/en-us/cli/azure/install-azu
 versioning, SAS token, restrict access
 
 # Create VM
-- [portal]()
-- [cli]()
+- [portal](https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal)
 
 # Create AKS + ACR
 - [portal](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli)
