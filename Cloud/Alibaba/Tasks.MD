@@ -7,11 +7,11 @@ Install OSSutil for storage [link](https://www.alibabacloud.com/help/en/object-s
 
 # Create storage bucket
 - [portal](https://www.alibabacloud.com/help/en/object-storage-service/latest/create-buckets-2)
-- [cli](https://bakingclouds.com/create-alibaba-storage-buckets-from-the-cloud-shell-using-ossutil/)
+- [cli](https://www.alibabacloud.com/help/en/object-storage-service/latest/oss-console-create-buckets)
 - [ossutil](https://www.alibabacloud.com/help/en/object-storage-service/latest/mb#concept-303803)
 
 # Create VM
-- [portal](https://alibabacloudguide.com/recipe-ecs-creation-of-an-instance-alibaba-cloud-2098d0138f18)
+- [portal](https://www.alibabacloud.com/topic-center/a2/fd1jefvgu59e-create-and-use-virtual-machines-in-virtual-server-alibaba-cloud-developer-community-alibaba-cloud)
 
 # Create container solutions
 - [portal and cli](https://faun.pub/8-ways-to-deploy-managed-kubernetes-cluster-in-alibaba-cloud-668aaeac7bff)

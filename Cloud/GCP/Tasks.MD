@@ -6,7 +6,6 @@ Install Google CLI [link](https://cloud.google.com/sdk/docs/install)
 
 # Create users and groups
 - [portal](https://www.howtogeek.com/devops/how-to-add-new-users-to-your-google-cloud-platform-projects/)
-- [cli]()
 - [service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts)
 
 # Create storage bucket
