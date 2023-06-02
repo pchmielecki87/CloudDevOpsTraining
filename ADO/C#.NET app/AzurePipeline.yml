@@ -12,7 +12,7 @@ jobs:
   - task: UseDotNet@2
     displayName: 'Install .NET Core SDK'
     inputs:
-      version: '3.1.x'
+      version: '6.x.x'
       includePreviewVersions: true
 
   - task: DotNetCoreCLI@2
