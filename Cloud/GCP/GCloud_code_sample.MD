@@ -11,5 +11,5 @@ gcloud compute instances create <instance-name> --machine-type f1-micro --zone u
 gcloud container clusters create --machine-type=f1-micro <cluster-name> --zone us-east1-b
 gcloud container clusters get-credentials <cluster-name> 
 kubectl create deployment hello-app --image=gcr.io/google-samples/hello-app:2.0
-kubectl expose deployment hello-app --type=LoadBalancer --port 8080
+kubectl expose deployment hello-app --type=LoadBalancer --port 8080 
 kubectl get service
